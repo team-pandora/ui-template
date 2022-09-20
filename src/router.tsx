@@ -1,12 +1,12 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import App from './App';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import App from "./App";
 
 export const Router = () => {
-    return (            
+    return (
         <BrowserRouter>
-        <Routes>
-            <Route path="/*" element={<App/>} />
-        </Routes>
-    </BrowserRouter>
+            <Routes>
+                <Route path="/*" element={<App />} />
+            </Routes>
+        </BrowserRouter>
     );
 };
