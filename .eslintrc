@@ -30,7 +30,8 @@
         "sourceType": "module"
     },
     "settings": {
-        "node": { "tryExtensions": [".js", ".json", ".ts", ".tsx", ".jsx"] }
+        "node": { "tryExtensions": [".js", ".json", ".ts", ".tsx", ".jsx"] },
+        "import/resolver": { "node": { "extensions": [".ts", ".tsx", ".js", ".jsx"] } }
     },
     "ignorePatterns": ["dist"],
     "rules": {
